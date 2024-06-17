@@ -14,3 +14,12 @@ min_version = "0.124"
 [author]
   name = "Alex Shpak"
   homepage = "https://github.com/alex-shpak/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "This is the blog section"
+    title = "blog section"
+    url = "/blog/"
+    weight = -110
